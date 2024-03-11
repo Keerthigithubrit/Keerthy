@@ -86,11 +86,11 @@ body{
     color: rgb(250, 194, 10);
     text-shadow: 1px 0 rgba(0, 0, 0, 0.363);
   }
-  .active{
+  a.active{
     position: relative;
     transition: -3;
   }
-  .active::after{
+  a.active::after{
     content:'';
     position:absolute;
     left: 50%;
@@ -322,8 +322,6 @@ body{
   border-collapse: collapse;
   border-radius: 15px;
   box-shadow: 1px 8px 10px 2px rgba(255, 255, 255, 0.1); 
-  transition:ease-in-out .40s;
-  transition: .5s; 
 }
 .about-col-1 p{
   font-size: 18px;
@@ -360,8 +358,6 @@ border-radius: 20px;
 box-shadow: 1px 8px 10px 2px rgba(245, 244, 244, 0.1);  
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
-transition:ease-in.40s;
-transition: .5s; 
 }
 .about-col-2 p{
   font-size: 18px;
@@ -417,10 +413,8 @@ transition: .5s;
   display:grid;
   grid-template-columns:47% 24% 24%;
   gap: 23px;  
-  transition: ease-in-out .40s;
-  transition: .20s;
-  transform: scale(0.9);
   padding-bottom: 10%;
+  margin:5%;
 }
 .career-col-1{   
   height: auto;
@@ -865,6 +859,17 @@ textarea{
 .copyright a{
   color: var(--color-white);
   font-family:sans-serif; 
+}
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all ease 3s;
+}
+.reveal.active{
+  position: relative;
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 
