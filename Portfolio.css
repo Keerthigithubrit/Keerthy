@@ -221,7 +221,7 @@ body{
     margin: 2px;
     border: none;
 }
-.social-icons>.icons :hover{
+.social-icons:hover{
   transform: scale(1.2);  
   transition: .20s;
   border-radius: 50%;   
