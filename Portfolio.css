@@ -623,7 +623,7 @@ h2{
 .service-image-info>i{
   font-size: 28px;  
   font-weight:lighter;
-  margin: 0 45%; 
+  margin: 0 40%; 
   padding: 6px 6px;
   color:rgb(13, 14, 13);
   align-items: center;
@@ -657,7 +657,10 @@ h2{
     height: auto;
     gap: 20px; 
     margin: 0 10%;
-  }    
+  }   
+.service-image-info>i{
+  margin: 0 45%;
+ }
 } 
 /*----------------Contact-------------------*/
 .contact{
