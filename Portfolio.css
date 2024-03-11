@@ -75,10 +75,8 @@ body{
     border-color: inherit;
   }
   .offcanvas-header
-  {
-    height: 45px;
+  {height: 45px;
   } 
-
   .offcanvas-body ul li a{   
     font-weight: bold;
   }
@@ -210,19 +208,18 @@ body{
 }
 .icons a>i{ 
   padding: 4px;
-  margin: 2px;
-  border: none;
-}
+  margin: 1px;
+  }
 .icons>i{
     border-radius: 100%;
     padding: 4px;
-    margin: 2px;
+    margin: 1px;
     border: none;
 }
 .social-icons>.icons:hover{
   transform: scale(1.1);  
   transition: .20s;
-  border-radius: 50%;   
+  border-radius: 100%;   
 }
 .home-image-box{
   display: flex;
@@ -340,11 +337,12 @@ body{
   padding: 10px 20px;
   transition: ease-in-out .40s;
   text-decoration: none;
-  border: 1px solid rgb(153, 153, 10);
+  border: 1px solid rgba(3, 102, 107, 0.795);
 }
 .resume-button a:hover{
-  transform: scale(1.1);
-  background-color: rgb(153, 153, 10);
+   transform: scale(1.1);
+  background-color:var(--first-shadow-color);
+  color: var(--first-color);
 }
 .about-col-2{
 font-size: 15;
