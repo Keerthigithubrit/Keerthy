@@ -620,7 +620,7 @@ h2{
 .service-image-info>i{
   font-size: 28px;  
   font-weight:lighter;
-  margin: 0 40%; 
+  margin: 0 39%; 
   padding: 6px 6px;
   color:rgb(13, 14, 13);
   align-items: center;
@@ -656,7 +656,7 @@ h2{
     margin: 0 10%;
   }   
 .service-image-info>i{
-  margin: 0 45%;
+  margin: 0 42%;
  }
 } 
 /*----------------Contact-------------------*/
