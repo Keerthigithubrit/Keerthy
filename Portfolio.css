@@ -207,13 +207,11 @@ body{
   color: var(--first-color);
 }
 .icons a>i{ 
-  padding: 5px;
+  padding: 7px;
 }
 .icons>i{
     border-radius: 100%;
-    padding: 5px;
-    
-    border: none;
+    padding: 7px;
 }
 .social-icons>.icons:hover{
   transform: scale(1.1);  
