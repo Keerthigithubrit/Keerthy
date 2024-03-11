@@ -371,7 +371,6 @@ transition: .5s;
   }
   .about-sub-item{
     width: 100%;
-    margin:10%;
     }
   .about-sub-content{
     display:flex;
