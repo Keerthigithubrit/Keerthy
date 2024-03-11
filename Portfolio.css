@@ -207,12 +207,12 @@ body{
   color: var(--first-color);
 }
 .icons a>i{ 
-  padding: 5px;
+  padding: 6px;
   margin:1px;
 }
 .icons>i{
     border-radius: 100%;
-    padding: 5px;
+    padding: 6px;
     margin:1px;
 }
 .social-icons>.icons:hover{
