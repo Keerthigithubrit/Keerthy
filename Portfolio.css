@@ -195,7 +195,7 @@ body{
   margin-top: 30px;
 }
 .icons{  
-  font-size: 22px;
+  font-size: 21px;
   text-decoration: none;
   color: rgba(22, 22, 22, 0.856);
   display:flex;
@@ -221,8 +221,8 @@ body{
     margin: 2px;
     border: none;
 }
-.social-icons:hover{
-  transform: scale(1.2);  
+.social-icons>.icons:hover{
+  transform: scale(1.1);  
   transition: .20s;
   border-radius: 50%;   
 }
