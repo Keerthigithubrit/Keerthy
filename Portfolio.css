@@ -294,7 +294,7 @@ body{
   font-weight: 500;
   color: rgb(252, 252, 252);
   text-shadow: 1px 0 rgba(3, 3, 3, 0.83);
-  padding: 7%;
+  padding-top: 7%;
 }
 .about-sub-item{
   padding: 0;
