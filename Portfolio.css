@@ -196,7 +196,6 @@ body{
 }
 .icons{  
   font-size: 22px;
-  padding:3px; 
   text-decoration: none;
   color: rgba(22, 22, 22, 0.856);
   display:flex;
@@ -212,13 +211,13 @@ body{
   color: var(--first-color);
 }
 .icons a>i{ 
-  padding: 3px;
+  padding: 4px;
   margin: 2px;
   border: none;
 }
 .icons>i{
     border-radius: 100%;
-    padding: 3px;
+    padding: 4px;
     margin: 2px;
     border: none;
 }
