@@ -402,7 +402,7 @@ font-weight: 500;
   color: var(--color-white);
   text-shadow: 1px 0 rgba(3, 3, 3, 0.021); 
   margin: 0;
-  padding-top: 8%;
+  padding-top: 7%;
 }
 .career-item{
   width: 100%;
@@ -413,7 +413,6 @@ font-weight: 500;
   grid-template-columns:47% 24% 24%;
   gap: 23px;  
   padding-bottom: 10%;
-  margin:3%;
 }
 .career-col-1{   
   height: auto;
