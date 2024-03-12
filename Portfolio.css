@@ -250,15 +250,12 @@ body{
   width: 300px;
   object-fit: cover;
 }
-@media (max-width:470px), (max-width:310px),(max-width:250px),(max-width:150px)
+@media (max-width:480px), (max-width:310px),(max-width:250px),(max-width:150px)
 {
 .home{
   min-height: 90vh;
 }
-  .home-content{
-    min-height: 80vh;
-  }
- .text p{
+.text p{
     font-size: 17px;
 }
   .text-name p{
@@ -313,7 +310,7 @@ body{
       object-fit: cover;
     }
     .social-icons{
-      margin-top: 5px;
+      margin-top: 10px;
     }
   }
 
@@ -405,7 +402,7 @@ font-weight: 500;
   color: var(--color-white);
   padding-left: 5%;
 }
-@media (max-width:450px), (max-width:310px),(max-width:250px),(max-width:90px)
+@media (max-width:480px), (max-width:310px),(max-width:250px),(max-width:90px)
 {
   .about{
     height: 90vh;
@@ -599,7 +596,7 @@ font-weight: 500;
 
 /*-----Media Query for Career Content-----*/
 
-@media (max-width:450px), (max-width:310px),(max-width:200px),(max-width:90px)
+@media (max-width:480px), (max-width:310px),(max-width:200px),(max-width:90px)
 {
   .career{
     min-height: 100vh;
@@ -613,8 +610,8 @@ font-weight: 500;
 .career-content{
   gap: 30px;   
   margin: 10%;
+  padding:5%;
   border-radius: 10px;
-  width:80%;
 }
 .career.col-1{
   height:530px;
@@ -942,14 +939,14 @@ textarea{
   margin:2%;
 }
 }
-@media(max-width:470px)
+@media(max-width:480px)
 {
   .col-1-info h5{
   font-size: 20px;
   margin-top:20px
 }
 .col-1-info p{
- padding-left: 15%;
+ padding-left: 10%;
 }
 }
 /*---------------Footer-----------------*/
