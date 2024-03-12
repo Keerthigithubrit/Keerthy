@@ -244,7 +244,7 @@ body{
   width: 300px;
   object-fit: cover;
 }
-@media (max-width:490px), (max-width:310px),(max-width:250px),(max-width:150px)
+@media (max-width:400px), (max-width:310px),(max-width:250px),(max-width:150px)
 {
   .home{
   min-height: 90vh;
@@ -275,7 +275,7 @@ body{
     color:rgb(196, 193, 193);
   }
   .social-icons{  
-    margin-top: 10px;
+    margin-top: 15px;
   }
  }
   @media (max-width:991px), (max-width:780px),(max-width:670px),(max-width:500px)
@@ -404,7 +404,7 @@ font-weight: 500;
   color: var(--color-white);
   padding-left: 5%;
 }
-@media (max-width:490px), (max-width:310px),(max-width:250px),(max-width:90px)
+@media (max-width:400px), (max-width:310px),(max-width:250px),(max-width:90px)
 {
   .about{
     height: 90vh;
@@ -418,7 +418,7 @@ font-weight: 500;
   .about-sub-content h5
   { 
     font-size: 20px;
-    margin-top: 5%; 
+    margin-top: 4%; 
   }
  .about-col-1 p{
   font-size: 15px;
@@ -598,7 +598,7 @@ font-weight: 500;
 
 /*-----Media Query for Career Content-----*/
 
-@media (max-width:490px), (max-width:310px),(max-width:200px),(max-width:90px)
+@media (max-width:400px), (max-width:310px),(max-width:200px),(max-width:90px)
 {
   .career{
     min-height: 130vh;
@@ -611,8 +611,8 @@ font-weight: 500;
 }
 .career-content{
   gap: 30px;   
-  margin-top: 7%;
-  height: 430px;
+  margin-top: 8%;
+  height: 480px;
   border-radius: 10px;
 }
 .career.col-1{
@@ -794,7 +794,7 @@ h2{
 @media (max-width:490px), (max-width:310px),(max-width:250px),(max-width:90px)
 {
   .service-container{
-    min-height: 100vh;
+    min-height: 110vh;
    padding-top: 50%;
   }
   .service-section{
