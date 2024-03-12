@@ -204,8 +204,6 @@ body{
   text-decoration: none;
   color: rgba(22, 22, 22, 0.856);
   display:flex;  
-  justify-content: center;
-  align-items: center;
   border-radius: 50%; 
   background: linear-gradient(79deg,rgba(2, 47, 88, 0.705),rgb(4, 207, 207),rgba(2, 63, 121, 0.705)); 
   border: 1px solid rgb(34, 125, 153);
@@ -256,7 +254,7 @@ body{
   min-height: 100vh;
 }
 .home-content{
-  min-height:70vh;
+  min-height:40vh;
 }
 .text p{
     font-size: 17px;
@@ -276,10 +274,7 @@ body{
     margin-block: 8px;
     color:rgb(196, 193, 193);
   }
-  .social-icons{  
-    margin-top: 20px;
   }
- }
   @media (max-width:991px), (max-width:780px),(max-width:670px),(max-width:500px)
  {
     .home{
@@ -311,9 +306,6 @@ body{
       height: 480px;
       width: 200px;
       object-fit: cover;
-    }
-    .social-icons{
-      margin-top: 10px;
     }
   }
 
