@@ -131,8 +131,10 @@ body{
       margin: 30px 80px;
     }
     .offcanvas-body ul li{
-      
       padding: 5px;
+    }
+    .offcanvas-body ul li a{
+     color:white;
     }
     a.active{
       color: rgb(172, 155, 3);
