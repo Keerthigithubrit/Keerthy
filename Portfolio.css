@@ -614,7 +614,7 @@ font-weight: 500;
   gap: 30px;   
   margin: 10%;
   border-radius: 10px;
-  width:70%;
+  width:80%;
 }
 .career.col-1{
   height:530px;
@@ -940,6 +940,16 @@ textarea{
 }
 .col-1-info{
   margin:2%;
+}
+}
+@media(max-width:470px)
+{
+  .col-1-info h5{
+  font-size: 20px;
+  margin-top:20px
+}
+.col-1-info p{
+ padding-left: 15%;
 }
 }
 /*---------------Footer-----------------*/
