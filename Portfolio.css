@@ -247,7 +247,7 @@ body{
 @media (max-width:490px), (max-width:310px),(max-width:250px),(max-width:150px)
 {
   .home{
-  min-height: 110vh;
+  min-height: 90vh;
 }
   .home-content{
     min-height: 70vh;
@@ -443,7 +443,7 @@ font-weight: 500;
   @media (max-width:991px), (max-width:780px),(max-width:670px),(max-width:500px){
   .about{
    width: auto;
-   height: 110vh;
+   height: 90vh;
   }
   .about-sub-item{
     width: 100%;
@@ -601,19 +601,22 @@ font-weight: 500;
 @media (max-width:490px), (max-width:310px),(max-width:200px),(max-width:90px)
 {
   .career{
-    min-height: 160vh;
+    min-height: 130vh;
   }
 .career-title{
-  padding-top: 6%;
+  padding-top: 5%;
 }
 .career-item{
   width: 80%;
 }
 .career-content{
   gap: 30px;   
-  margin-top: 5%;
+  margin-top: 7%;
   height: 430px;
   border-radius: 10px;
+}
+.career.col-1{
+  height:460px;
 }
 .career-col-1 h2{
   font-size: 23px;
