@@ -250,10 +250,13 @@ body{
   width: 300px;
   object-fit: cover;
 }
-@media (max-width:480px), (max-width:310px),(max-width:250px),(max-width:150px)
+@media (max-width:470px), (max-width:310px),(max-width:250px),(max-width:150px)
 {
 .home{
-  min-height: 90vh;
+  min-height: 100vh;
+}
+.home-content{
+  min-height:70vh;
 }
 .text p{
     font-size: 17px;
@@ -274,7 +277,7 @@ body{
     color:rgb(196, 193, 193);
   }
   .social-icons{  
-    margin-top: 30px;
+    margin-top: 20px;
   }
  }
   @media (max-width:991px), (max-width:780px),(max-width:670px),(max-width:500px)
@@ -609,12 +612,12 @@ font-weight: 500;
 }
 .career-content{
   gap: 30px;   
-  margin: 10%;
-  padding:5%;
+  margin-top: 10%;
   border-radius: 10px;
+  width:100%;
 }
 .career.col-1{
-  height:530px;
+  height:550px;
 }
 .career-col-1 h2{
   font-size: 23px;
