@@ -119,8 +119,12 @@ body{
       margin-left:10%;      
       justify-content: center;
     }
+    .offcanvas-header>label{
+        margin: 0 20px;
+      }
     .offcanvas-body{
-      background: linear-gradient(50deg,rgb(42, 104, 98),rgb(38, 66, 38));
+      background: linear-gradient(60deg,rgba(13, 2, 160, 0.705),
+        rgb(3, 168, 173),rgba(12, 2, 146, 0.705)); 
       width: 100%;
     }
     .offcanvas-body ul{
@@ -244,9 +248,9 @@ body{
   width: 300px;
   object-fit: cover;
 }
-@media (max-width:400px), (max-width:310px),(max-width:250px),(max-width:150px)
+@media (max-width:450px), (max-width:310px),(max-width:250px),(max-width:150px)
 {
-  .home{
+.home{
   min-height: 90vh;
 }
   .home-content{
@@ -260,10 +264,6 @@ body{
   }
   .text-name p span{
     font-size: 24px;
-    font-family:Georgia;
-    color: var(--color-white);
-    animation-name: var(--first-color);
-    animation-delay: .5s;
   }
   .role-text p{
     font-size: 18px;
@@ -601,7 +601,7 @@ font-weight: 500;
 @media (max-width:400px), (max-width:310px),(max-width:200px),(max-width:90px)
 {
   .career{
-    min-height: 130vh;
+    min-height: 100vh;
   }
 .career-title{
   padding-top: 5%;
@@ -612,11 +612,10 @@ font-weight: 500;
 .career-content{
   gap: 30px;   
   margin-top: 8%;
-  height: 480px;
   border-radius: 10px;
 }
 .career.col-1{
-  height:460px;
+  height:500px;
 }
 .career-col-1 h2{
   font-size: 23px;
@@ -681,7 +680,7 @@ font-weight: 500;
   margin-top: 7%;
   }
   .career-col-1{
-  height: 380px; 
+  height: 410px; 
   background-color: var(--color-white);
   }
   .experience-content{
@@ -795,10 +794,7 @@ h2{
 {
   .service-container{
     min-height: 110vh;
-   padding-top: 50%;
-  }
-  .service-section{
-    margin-top: 50%;
+   padding-top: 10%;
   }
   h2{   
     padding: 7%;
