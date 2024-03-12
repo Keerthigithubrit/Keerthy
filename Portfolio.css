@@ -597,7 +597,7 @@ font-weight: 500;
 
 /*-----Media Query for Career Content-----*/
 
-@media (max-width:400px), (max-width:310px),(max-width:200px),(max-width:90px)
+@media (max-width:450px), (max-width:310px),(max-width:200px),(max-width:90px)
 {
   .career{
     min-height: 100vh;
@@ -610,7 +610,7 @@ font-weight: 500;
 }
 .career-content{
   gap: 30px;   
-  margin-top: 10%;
+  margin: 10%;
   border-radius: 10px;
 }
 .career.col-1{
