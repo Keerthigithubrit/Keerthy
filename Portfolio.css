@@ -414,7 +414,7 @@ font-weight: 500;
     margin-top: 4%; 
   }
  .about-col-1 p{
-  font-size: 15px;
+  font-size: 14px;
    padding:5%;
   }
   .resume-button{
@@ -427,7 +427,7 @@ font-weight: 500;
     padding: 10px 10px; 
   }
   .about-col-2 p{
-    font-size: 15px;
+    font-size: 14px;
    }
   .about-col-2 h6{
     font-size: 13px;
@@ -607,6 +607,7 @@ font-weight: 500;
   margin-top: 10%;
   border-radius: 10px;
   width:100%;
+  padding:0 10%;
 }
 .career.col-1{
   height:550px;
